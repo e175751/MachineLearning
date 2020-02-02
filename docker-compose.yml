@@ -9,7 +9,7 @@ services:
       NB_GID: 100
       GRANT_SUDO: "yes"
     volumes:
-       - "./work:/home/jovyan/work"
+       - "./work1:/home/jovyan/work"
     privileged: true
     ports:
       - "8888:8888"
